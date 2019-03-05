@@ -1,0 +1,23 @@
+
+.comment-list {
+    background-color: #C5E3FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.comment-list:last-child {
+    margin-bottom: 0;
+}
+
+.comment-name {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    text-align: justify;
+    font-size: 12px;
+}

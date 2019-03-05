@@ -1,0 +1,71 @@
+.ArticleListWrapper {
+}
+
+.ArticleListItem {
+    background-color: #60A6D7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ArticleListItemTitle {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ArticleListItemTitle button {
+    padding: 5px 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: blue;
+    color: #ecf0f1;
+}
+
+.ArticleListItemText {
+    text-align: justify;
+}
+
+.ArticleListItemDate {
+    text-align: right;
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.comments {
+    background-color: #fff;
+    color: #282c34;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comments-header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comments-header h3 {
+    margin: 0;
+}
+
+.comments-header button {
+    padding: 5px 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #98bad4;
+    color: #ecf0f1;
+}
+
+.comment-list-wrap {
+    margin-top: 20px;
+}
